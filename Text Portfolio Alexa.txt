@@ -1,11 +1,11 @@
 * HOME
 home__social
-https://www.linkedin.com/
+https://www.linkedin.com/antoniocurci06
 https://dribbble.com/
-https://github.com/
+https://github.com/antoniocurci06
 
 home__description
-High level experience in web design and development knowledge, producing quality work.
+PhD Student in Artificial Intelligence for Society
 
 
 * ABOUT
