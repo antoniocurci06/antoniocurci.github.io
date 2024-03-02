@@ -26,7 +26,7 @@ body {
 }
 
 img {
-  max-width: 70%;
+  max-width: 60%;
   height: auto;
   border-radius: 50%;
   display: block;
@@ -44,4 +44,28 @@ p {
 
 ul {
   line-height: 1.6;
+  color: #555;
+}
+
+ol {
+  line-height: 1.6;
+  color: #555;
+}
+
+nav {
+  background-color: #333; /* Set background color */
+  padding: 10px; /* Add some padding for better appearance */
+  text-align: center; /* Center align the items */
+}
+
+/* Style for the menu items */
+nav a {
+  color: rgb(0, 0, 0); /* Set text color */
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 15px; /* Add some space between links */
+  font-size: 16px; /* Set font size */
+}
+
+h2{
+  margin-bottom: 0.5;
 }
