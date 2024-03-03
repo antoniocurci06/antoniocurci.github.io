@@ -6,7 +6,6 @@
 
 body {
   font-family: SF-Pro, Helvetica, sans-serif;
-  padding: 10;
   
   color: #ffffff68;
 }
@@ -25,14 +24,16 @@ header {
   height: 4%;
   top: 0;
   z-index: 1000;
-  background-color: rgba(243, 237, 237, 0.7);
+  background-color: rgba(245, 245, 245, 0.7);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   padding: 15px;
+  justify-content:space-evenly;
  
 }
 
 .upper-menu a {
+  align-self: center;
   color:#333;
   margin: 10px;
   text-decoration: none;
@@ -42,7 +43,7 @@ header {
   display: flex;
   padding-top: 3%;
   justify-content:space-evenly;
-  background-color: rgba(243, 237, 237, 1);
+  background-color: rgba(245, 245, 245, 1);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -50,9 +51,6 @@ header {
   border: #ddd;
   border-radius: 0;
   height: 320px;
-  
-
-
   /*background-color: rgb(255, 255, 255);*/
 
 }
@@ -64,7 +62,7 @@ header {
 }
 
 .column {
-  flex: 2;
+  flex: 1;
   padding: 5px;
 }
 
@@ -74,7 +72,7 @@ header {
 }
 
 .title h2 {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .contacts {
@@ -101,6 +99,7 @@ header {
 p {
   color: hsl(0, 0%, 20%);
   line-height: 1.6;
+  text-size-adjust: none;
 }
 
 ol {
@@ -133,4 +132,8 @@ h5 {
 
 h1{
   color: #333;
+}
+
+i {
+  font-style: normal;
 }
